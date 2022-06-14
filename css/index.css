@@ -1,0 +1,120 @@
+.big_screen {
+    width: 100%;
+    height: auto;
+}
+
+.top_header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 70px;
+    background-color: rgb(49, 49, 49);
+}
+
+.main_screen {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+}
+
+.srearch_input {
+    width: 400px;
+    margin-top: 15px;
+    height: 40px;
+}
+
+.search_btn {
+    margin-top: 15px;
+    margin-left: 5px;
+    width: 65px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    background-color: rgb(201, 201, 201);
+}
+
+.video_screen {
+    width: 950px;
+    margin-left: 20px;
+    color: white;
+}
+
+.right_screen {
+    display: inline-block;
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: black;
+}
+
+.video_control {
+    margin-top: 20px;
+}
+
+.videoPlayListAControl {
+    /* display: block; */
+    color: white;
+}
+
+.videoAndTextControl {
+    display: inline-block;
+    /* text-decoration: none; */
+    color: white;
+    align-items: baseline;
+}
+
+.textDecorationControl {
+    width: 250px;
+    margin-left: 10px;
+    margin-top: 15px;
+    float: left;
+}
+
+.hotText {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 5px;
+    color: rgb(88, 155, 255);
+}
+
+.aboutVideoDetails {
+    /* background-color: rgb(88, 255, 116); */
+    width: 100%;
+    height: 200px;
+}
+
+.isInline {
+    display: inline-block;
+}
+
+.isRight {
+    float: right;
+    margin-left: 10px;
+}
+
+.isRedColorBtn {
+    color: white;
+    background-color: red;
+    width: 80px;
+    height: 45px;
+    border-radius: 3px;
+    border-width: 0px;
+}
+
+.isBlueColorBtn {
+    color: rgb(88, 155, 255);
+    background-color: black;
+    width: 80px;
+    height: 45px;
+    border-radius: 3px;
+    border: 2px solid rgb(88, 155, 255);
+}
+
+.textControl {
+    font-size: 14px;
+    font-weight: 800;
+    position: relative;
+    margin-top: 10px;
+}
